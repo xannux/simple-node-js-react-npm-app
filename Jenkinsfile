@@ -23,7 +23,7 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
             }
         }
-        state('Deliver')
+        stage('Deliver')
         {
             steps
             {
